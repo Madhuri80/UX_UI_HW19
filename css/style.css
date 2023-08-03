@@ -1,4 +1,8 @@
-.inline-block {
+
+html {
+    scroll-behavior: smooth;
+  }
+  .inline-block {
     display:inline-block;
     vertical-align: top;
     /*border: 2px solid red;*/
@@ -24,6 +28,7 @@ name {
     font-size:24px;
     font-weight:525;
    margin-left:25px ;
+   color:#008080;
 }
 .logo  img{
     width: 70px;
@@ -39,13 +44,14 @@ nav {
     background-color: #BEF9FC;
     margin: 0 auto;
     float: right;
+
     
     
    
     }
 
 nav ul {
-    width:250px;
+    width:300px;
     float: right;
     background-color: #BEF9FC;
     
@@ -54,10 +60,18 @@ nav ul li{
     text-align:center;
     font-family: "Manrope", Sans-serif;
     font-size: 18px;
-    color:#333333;
-    background-color: #BEF9FC;
+    color:#FCA21C;
+    /*background-color: #BEF9FC;*/
 
 }
+nav ul li a:hover {
+    background-color: #000;
+    color: #FFFFFF;
+
+  
+  }
+  
+ 
 
 .heroimg {
     height:700px;
@@ -93,7 +107,7 @@ nav ul li{
 }
 
  button {
-    background-color: #333333;
+    background-color:  #008080;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -105,13 +119,20 @@ nav ul li{
     border-radius: 30px;
     transition-duration: 0.4s;
     margin-bottom: 15px;
+    box-shadow:0 4px #999;
+    cursor:pointer;
 
    
  }
-.button:hover {
-background-color: #008080;
+button:hover {
+background-color:#333333;
 color: white;
- }
+}
+button:active {
+    background-color: #FCA21C;
+    box-shadow: 0 3px #666;
+    transform: translateY(6px);
+}
 
  
  
@@ -181,6 +202,7 @@ color: white;
     grid-template-columns: 50% 50%;
     column-gap:0.5%;
     padding:0% 0% 0% 10%;
+    
 
 }
 .project-details {
@@ -189,8 +211,14 @@ color: white;
    
 }
 .cs_mockup {
-    width:70%;
-    padding:2%
+    width:80%;
+    padding:2%;
+    transition: transform .2s;
+
+    
+}
+.cs_mockup:hover {
+    transform:scale(1.1);
 }
 .project-details button {
     
@@ -208,6 +236,7 @@ color: white;
 
     
 }
+
 #contact-Grid {
     display:grid;
     background-image: linear-gradient(to bottom, #008080, #3C9D9D);
@@ -280,15 +309,35 @@ footer ul {
 }
 
 footer ul li {
-    padding: left 20px;
-    padding:right 20px;
+    padding: left 40px;
+    padding:right 40px;
     text-align:center;
     font-family: "Manrope", Sans-serif;
     font-size: 18px;
-    color:#333333;
+    color:#FCA21C;
     background-color: #BEF9FC;
 
 }
+footer ul li a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+footer ul li a:visited {
+    color: #FCA21C;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  footer ul li a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 @media screen and (max-width:600px) {
 
     .logo {
