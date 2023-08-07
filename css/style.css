@@ -74,11 +74,13 @@ nav ul li{
     /*background-color: #BEF9FC;*/
 }
 
-    nav ul li a:link {
+    /*nav ul li a:link {
         color: green;
         background-color: transparent;
         text-decoration: none;
       }
+      */
+
      nav ul li a:visited {
         color:#FFFFFF;
         background-color: transparent;
@@ -368,11 +370,12 @@ footer ul li a:link {
     background-color: transparent;
     text-decoration: none;
   }
-footer ul li a:visited {
+/*footer ul li a:visited {
     color:  #008080;
     background-color: transparent;
     text-decoration: none;
   }
+  */
   footer ul li a:hover {
     color:#FFFFFF;
     background-color: transparent;
@@ -409,7 +412,9 @@ footer ul li a:visited {
 
  @media screen and (max-width:600px) {
    
-
+.nav {
+    position:sticky;
+}
     .flexContainer {
         flex-direction: column;
         align-items: center;
