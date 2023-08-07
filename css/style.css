@@ -8,19 +8,29 @@ html {
     /*border: 2px solid red;*/
     
 }
+header {
+    background-color:#008080;
+    padding: 1%;
+    
+    overflow:hidden;
+    
+    
+    
+}
+
 .logo {
     /*width: 43%;
     padding:10px;*/
-    background-color: #BEF9FC;
+    background-color:#008080;
     margin: 0 auto;
    
 }
 
 name {
    
-   padding:.70%; 
+   padding:.30%; 
     width:auto;
-    background-color: #BEF9FC;
+    background-color: #008080;
     margin: 0 auto;
     text-align: center;
     vertical-align:middle;
@@ -28,10 +38,10 @@ name {
     font-size:24px;
     font-weight:525;
    margin-left:25px ;
-   color:#333333;
+   color:#FFFFFF;
 }
 .logo  img{
-    width: 100px;
+    width:100px;
     height:100px;
     
 }
@@ -39,28 +49,28 @@ name {
 
     
 nav {
-    width:60%;
-   padding:0.75%;  
-    background-color: #BEF9FC;
+    width:50%;
+   padding:.70%;  
+    background-color:#008080;
     margin: 0 auto;
     float: right;
-
-    
     
    
     }
 
 nav ul {
-    width:300px;
+    width:400px;
     float: right;
-    background-color: #BEF9FC;
+    background-color: #008080;
     
 }
 nav ul li{
     text-align:center;
     font-family: "Manrope", Sans-serif;
     font-size: 18px;
-    color:#FCA21C;
+    
+    margin-left:2% ;
+    margin-right:2% ;
     /*background-color: #BEF9FC;*/
 }
 
@@ -69,28 +79,26 @@ nav ul li{
         background-color: transparent;
         text-decoration: none;
       }
-      nav ul li a:visited {
-        color: #D45B53;
+     nav ul li a:visited {
+        color:#FFFFFF;
         background-color: transparent;
         text-decoration: none;
       }
       nav ul li a:hover {
-        color: #008080;
-        background-color: transparent;
+        color:#333333 ;
         text-decoration: underline;
       }
     nav ul li a:active {
-        color:#333333;
+        color:#d45b53;
         background-color: transparent;
         text-decoration: underline;
       }
   
- 
 
 .heroimg {
-    height:800px;
+    height:850px;
     padding:30px;
-    
+    margin-top:2%;
     background-image: linear-gradient(to bottom, #FFFFFF, #E1E1E1);
     
 }
@@ -111,17 +119,18 @@ nav ul li{
        
         }
 .content h1 {
-    font-family: "Lato", Sans-serif;
-    color:#D45B53;
+    font-family: "", sans-serif;
+    color: #d45b53;
 }
 
 .content p {
-    font-family: "Quicksand", Sans-serif; 
+    font-family:"playfair Display", serif; 
     color:#333333; 
+    padding:0% 3% 0% 3%;
 }
 
  button {
-    background-color:  #008080;
+    background-color:#008080;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -132,8 +141,8 @@ nav ul li{
     font-size: 16px;
     border-radius: 30px;
     transition-duration: 0.4s;
-    margin-bottom: 15px;
-    box-shadow:0 4px #999;
+    margin-bottom: 20px;
+    box-shadow:0 4px:#008080;
     cursor:pointer;
 
    
@@ -143,9 +152,9 @@ background-color:#333333;
 color: white;
 }
 button:active {
-    background-color: #FCA21C;
-    box-shadow: 0 3px #666;
-    transform: translateY(6px);
+    background-color:#d45b53;
+    box-shadow: 0 3px #d45b53;
+    transform: translateY(-6px);
 }
 
  
@@ -168,14 +177,15 @@ button:active {
     font-size:50px;
     margin-top: -1.65%; 
     font-family: "Manrope", Sans-serif;
-    color:#008080;
+    color:#333333;
  }
 .skillCard {
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
-    width:30%;
+    width:25%;
     text-align: center;
+    padding:0% 4% 0% 4%;
     /*outline: 1px solid red;*/
    
 }
@@ -191,7 +201,8 @@ button:active {
    
     text-align:justify;
     
-    font-size: 20px;
+    font-size: 18px;
+   
   
  
 }
@@ -201,7 +212,7 @@ button:active {
     padding:2%;
     justify-items: center;
     font-family: "Manrope", Sans-serif;
-    color:#008080;
+    color:#333333;
 }
 #myWork-Grid {
     display:grid;
@@ -253,8 +264,8 @@ button:active {
 
 #contact-Grid {
     display:grid;
-    background-image: linear-gradient(to bottom, #008080, #3C9D9D);
-    height:500px;
+    background-image: linear-gradient(to bottom, #008080,#008080);
+    height:350px;
     
 
 }
@@ -262,9 +273,11 @@ button:active {
 
 
 #contact-Grid h1{
+    margin-top:10px;
+
     text-align: center;
     font-size: 50px;
-    color:#333333;
+    color:#FFFFFF;
     justify-items: center; 
     
 }
@@ -276,6 +289,7 @@ button:active {
     grid-template-columns: 50% 50%; 
     column-gap:0.5%;
     text-align: center;
+    margin-bottom: 200px;
    
 
    
@@ -286,50 +300,65 @@ button:active {
     width:100%;
     justify-content: center;
     font-size: larger;
+    color:#FFFFFF;
 }
 
-.myLinkedin{
+.myLinkedin {
     width:100%;
     justify-content: center;  
     font-size: larger;
+    color:#FFFFFF;
+}
+.myLinkedin a:visited {
+    color:#FFFFFF;
+
+}
+.myLinkedin a:hover {
+    color:#333333;
+
+}
+.myLinkedin a:active {
+    color:#d45b53;
+
 }
 
-   
-    
 
+
+  
+ 
+    
+footer.inline-block {
+    display:inline-block
+    vertical-align:middle;
+    
+}
 
 footer {
-    background-color: #BEF9FC;
-    padding: 1%;
+    background-color: #333333;
+    overflow:hidden;
     /*position:fixed;*/
     /*position:sticky;*/
     /*border: 2px solid red;*/
     
 }
-header {
-    background-color: #BEF9FC;
-    padding: 1%;
-    position:fixed;
-    position:sticky;
-    
-    
-    
-}
+
 footer ul {
     display:inline-block;
-    vertical-align: top;
-    background-color: #BEF9FC;
-   
+    vertical-align:middle;
+    background-color: #333333;
+   width:50%;
+   float:left;
 }
 
 footer ul li {
-    padding: left 40px;
-    padding:right 40px;
+    margin-left: 2%;
+    margin-right:2%;
     text-align:center;
     font-family: "Manrope", Sans-serif;
     font-size: 18px;
-    color:#FCA21C;
-    background-color: #BEF9FC;
+    
+    background-color:#333333;
+    
 
 }
 footer ul li a:link {
@@ -338,50 +367,46 @@ footer ul li a:link {
     text-decoration: none;
   }
 footer ul li a:visited {
-    color: #D45B53;
+    color:  #008080;
     background-color: transparent;
     text-decoration: none;
   }
   footer ul li a:hover {
-    color: #008080;
+    color:#FFFFFF;
     background-color: transparent;
     text-decoration: underline;
   }
   footer ul li a:active {
-    color:#333333;
+    color: #d45b53;
     background-color: transparent;
     text-decoration: underline;
   }
-@media screen and (max-width:600px) {
+ .corporatelogo {
+    display:block;
+    justify-items:center;
+    float:right;
 
-    .logo {
-        width:50%;
-        margin-left:0;
-    }
-    .logo img {
-        width:50px;
-        height:50px;
-    }
-    name {
-       
-       
-        text-align: center;
-        
-    }
-    nav {
-        width:40%;
-        float:center;
-        text-align: center;
-    }
-    nav ul {
-        width:100%;
-        
-    }
-    nav ul li{
-        display:block;
-        margin:10px 0;
-    }
+   
+ }
+ footer .corporatelogo p {
+    color:white;
+   
+ }
 
+ .corporatelogo img {
+    width:100px;
+    height:100px;
+    
+    vertical-align:bottom;
+    
+ }
+ 
+
+
+
+
+ @media screen and (max-width:600px) {
+   
 
     .flexContainer {
         flex-direction: column;
@@ -409,9 +434,7 @@ footer ul li a:visited {
         grid-template-rows:max-content 1fr 1fr;
         grid-template-columns: 100%;
     }
-    .footer ul {
-        float:center;
-    }
+    
     .content {
         width:400px;
        
@@ -437,8 +460,29 @@ footer ul li a:visited {
     #myWork-Grid h4 {
         text-align:center;
         padding:0%
-
-
-
+}
+footer ul li {
+    float: none;
+  /*  display:block; */
+    
+    text-align: left;
+  }
+  footer .inline-block {
+    display:block;
+    vertical-align:top;
+  }
+  footer ul{
+    float: none;
+  }
+    
+  
+   .corporatelogo  {
+    color:white;
+    text-align:center;
+    float:none;
+    justify-items: center;
+      
+    
 }
 }
+

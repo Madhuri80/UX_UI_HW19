@@ -22,4 +22,16 @@ $(document).ready(function(){
         });
       } // End if
     });
+  });   /*
+  <script>
+document.getElementById("scrollToToplogo").addEventListener("click", function(event) {
+  event.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
   });
+});
+</script>
+*/
+
+
