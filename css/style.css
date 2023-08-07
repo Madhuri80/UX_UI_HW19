@@ -66,7 +66,7 @@ nav ul {
 }
 nav ul li{
     text-align:center;
-    font-family: "Manrope", Sans-serif;
+    font-family: "playfair Display", serif;
     font-size: 18px;
     
     margin-left:2% ;
@@ -119,7 +119,7 @@ nav ul li{
        
         }
 .content h1 {
-    font-family: "", sans-serif;
+    font-family:"playfair Display", serif;
     color: #d45b53;
 }
 
@@ -137,7 +137,7 @@ nav ul li{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: "Manrope", Sans-serif;
+    font-family: "playfair Display", serif;
     font-size: 16px;
     border-radius: 30px;
     transition-duration: 0.4s;
@@ -211,7 +211,7 @@ button:active {
     font-size: 50px;
     padding:2%;
     justify-items: center;
-    font-family: "Manrope", Sans-serif;
+    font-family: "playfair Display", serif;
     color:#333333;
 }
 #myWork-Grid {
@@ -452,7 +452,7 @@ footer ul li a:visited {
   
     }
     .content p {
-        font-family: "Manrope", Sans-serif; 
+        
         color:#333333; 
         font-size: 14px;
     }
