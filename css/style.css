@@ -127,6 +127,8 @@ nav ul li{
     font-family:"playfair Display", serif; 
     color:#333333; 
     padding:0% 3% 0% 3%;
+    text-align:justify;
+
 }
 
  button {
@@ -176,7 +178,7 @@ button:active {
     text-align: center;
     font-size:50px;
     margin-top: -1.65%; 
-    font-family: "Manrope", Sans-serif;
+    font-family:"playfair Display", serif;
     color:#333333;
  }
 .skillCard {
@@ -436,7 +438,7 @@ footer ul li a:visited {
     }
     
     .content {
-        width:400px;
+        width:fit-content;
        
     }
     
@@ -451,6 +453,7 @@ footer ul li a:visited {
         margin-top: 15px;
   
     }
+    
     .content p {
         
         color:#333333; 
