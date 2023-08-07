@@ -74,12 +74,12 @@ nav ul li{
     /*background-color: #BEF9FC;*/
 }
 
-    /*nav ul li a:link {
-        color: green;
+    nav ul li a:link {
+        color:white;
         background-color: transparent;
         text-decoration: none;
       }
-      */
+      
 
      nav ul li a:visited {
         color:#FFFFFF;
@@ -313,6 +313,9 @@ button:active {
     font-size: larger;
     color:#FFFFFF;
 }
+.myLinkedin a:link {
+    color:#FFFFFF;
+}
 .myLinkedin a:visited {
     color:#FFFFFF;
 
@@ -366,16 +369,16 @@ footer ul li {
 
 }
 footer ul li a:link {
-    color: green;
+    color: #008080;
     background-color: transparent;
     text-decoration: none;
   }
-/*footer ul li a:visited {
+footer ul li a:visited {
     color:  #008080;
     background-color: transparent;
     text-decoration: none;
   }
-  */
+  
   footer ul li a:hover {
     color:#FFFFFF;
     background-color: transparent;
