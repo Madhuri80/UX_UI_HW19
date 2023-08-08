@@ -126,8 +126,8 @@ nav ul {
 .heroimg {
     height:850px;
     padding:30px;
-    margin-top:2%;
-    background-image: linear-gradient(to bottom, #FFFFFF, #E1E1E1);
+    
+    background-image: linear-gradient(to bottom,#E2E2E2,#D9D9D9,#3C9D9D);
     
 }
 .content {
@@ -136,6 +136,7 @@ nav ul {
     margin:0 auto;
     text-align:center;
     box-shadow: 4px 4px 6px #888888;
+    margin-top: 2%;
     
     
     }
@@ -198,16 +199,18 @@ button:active {
 
 }
 #mySkills {
-    background-image: linear-gradient(to bottom,#E1E1E1, #D9D9D9);
-      
+    background-image: linear-gradient(to bottom,#E2E2E2,#D9D9D9,#3C9D9D);
+    
 }
 
 #mySkills h1 {
     text-align: center;
     font-size:50px;
-    margin-top: -1.65%; 
+    margin-top: -1.65%;
     font-family:"playfair Display", serif;
-    color:#333333;
+    color:#d45b53;
+    box-shadow:#333333;
+    padding:2%;
  }
 .skillCard {
     display:flex;
@@ -242,13 +245,13 @@ button:active {
     padding:2%;
     justify-items: center;
     font-family: "playfair Display", serif;
-    color:#333333;
+    color:#d45b53;
 }
 #myWork-Grid {
     display:grid;
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
     width: 100%;
-    background-image: linear-gradient(to bottom, #D9D9D9, #008080);
+    background-image: linear-gradient(to bottom, #E2E2E2, #3C9D9D);
     
 
 }
@@ -282,8 +285,30 @@ button:active {
     left: 50%;
    -ms-transform: translate(-30%, -70%);
     transform: translate(-50%, -50%);
+    background-image:linear-gradient(to bottom, #D45B53, #3C9D9D);
+    color: #E2E2E2;
 
 }
+.project-details button:active {
+    box-shadow:0 4px: #3C9D9D;
+}
+.Viewall-project {
+    justify-content:right ;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "playfair Display", serif;
+    font-size: 16px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+    box-shadow:0 4px:#008080;
+    cursor:pointer;
+}
+.project
 #myWork-Grid h4 {
     text-align: right;
     padding:0% 25% 0% 0%;
@@ -294,7 +319,7 @@ button:active {
 
 #contact-Grid {
     display:grid;
-    background-image: linear-gradient(to bottom, #008080,#008080);
+    background-image: linear-gradient(to bottom,  #3C9D9D,#008080);
     height:350px;
     
 
