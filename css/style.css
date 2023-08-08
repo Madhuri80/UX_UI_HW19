@@ -462,11 +462,7 @@ footer ul li a:visited {
       display:block;
       text-align:center;
     }
-    .topnav a:hover {
-        color:#FFFFFF;
-          background-color:#333333;
-          text-decoration: none;
-      }
+    
       .topnav a:active {
         color:#d45b53;
           background-color:#333333;
