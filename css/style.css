@@ -296,17 +296,28 @@ button:active {
     
    position: relative;
    top: 10%; 
-    left: 50%;
+    left:50%;
+    
    -ms-transform: translate(-30%, -70%);
     transform: translate(-50%, -50%);
     background-image:linear-gradient(to bottom, #D45B53, #3C9D9D);
     color: #E2E2E2;
 
 }
-.project-details button:active {
-    box-shadow:0 4px:#3C9D9D;
+.project-details button:hover {
+    
+    color: white;
+    background-image:linear-gradient(to bottom,#333333,#333333 );
+    }
+    .project-details button:active {
+        background-image:linear-gradient(to bottom,#d45b53,#d45b53);
+        box-shadow: 0 3px #d45b53;
+        transform: translateX(-50%);
+    }
+    
+.Viewall-project{
+    text-align:center;
 }
-
 .Viewall-project button {
     align-items:right ;
     border: none;
@@ -318,7 +329,7 @@ button:active {
     font-size: 16px;
     border-radius: 30px;
     transition-duration: 0.4s;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     position: relative;
    top:20%; 
     left: 50%;
@@ -329,8 +340,18 @@ button:active {
     margin-top:5% ;
     box-shadow:0 4px:#008080;
     cursor:pointer;
+    
+   
 }
-
+.Viewall-project button:hover {
+    color: white;
+    background-image:linear-gradient(to bottom,#333333,#333333 );  
+}
+.Viewall-project button:active {
+    background-image:linear-gradient(to bottom,#d45b53,#d45b53);
+        box-shadow: 0 3px #d45b53;
+        transform: translateX(-50%); 
+}
 
 
 
