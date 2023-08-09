@@ -295,7 +295,7 @@ button:active {
     font-family:"Playfair Display", serif;
     
    position: relative;
-   top: 10%; 
+   top: 12%; 
     left:50%;
     
    -ms-transform: translate(-30%, -70%);
