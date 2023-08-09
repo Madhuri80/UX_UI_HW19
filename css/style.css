@@ -262,7 +262,7 @@ button:active {
     display:grid;
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
     width: 100%;
-    row-gap: 1.5%;
+   row-gap: 1.5%; 
     background-image: linear-gradient(to bottom, #E2E2E2, #3C9D9D);
     
 
@@ -295,8 +295,9 @@ button:active {
     font-family:"Playfair Display", serif;
     
    position: relative;
-   top: 12%; 
+   top: 10%; 
     left:50%;
+    margin-top: 3%;
     
    -ms-transform: translate(-30%, -70%);
     transform: translate(-50%, -50%);
