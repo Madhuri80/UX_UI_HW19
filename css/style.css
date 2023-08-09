@@ -33,7 +33,7 @@ name {
     margin: 0 auto;
     text-align: center;
     vertical-align:middle;
-    font-family: "Brown Sugar",serif;
+    font-family:"Brown Sugar", serif;
     font-size:24px;
     font-weight:525;
    margin-left:25px ;
@@ -65,6 +65,7 @@ nav ul {
     background-color: #008080;
 }
 .topnav a {
+    font-family:"Playfair Display", serif;
     float: left;
     display: block;
     color:white;
@@ -148,8 +149,9 @@ nav ul {
        
         }
 .content h1 {
-    font-family:"playfair Display", serif;
+    font-family:"Brown Sugar", serif;
     color: #d45b53;
+    font-size:30px;
 }
 
 .content p {
@@ -168,7 +170,7 @@ nav ul {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: "playfair Display", serif;
+    font-family:"playfair Display", serif;
     font-size: 16px;
     border-radius: 30px;
     transition-duration: 0.4s;
@@ -189,7 +191,11 @@ button:active {
 }
 
  
- 
+#mySkills {
+    background-image: linear-gradient(to bottom,#E2E2E2,#D9D9D9,#3C9D9D);
+    
+}
+
 .flexContainer {
     display:flex;
     justify-content:space-around;
@@ -198,16 +204,12 @@ button:active {
     
 
 }
-#mySkills {
-    background-image: linear-gradient(to bottom,#E2E2E2,#D9D9D9,#3C9D9D);
-    
-}
 
 #mySkills h1 {
     text-align: center;
     font-size:50px;
     margin-top: -1.65%;
-    font-family:"playfair Display", serif;
+    font-family:"Playfair Display", serif;
     color:#d45b53;
     box-shadow:#333333;
     padding:2%;
@@ -222,7 +224,11 @@ button:active {
     /*outline: 1px solid red;*/
    
 }
-
+.skillCard h2 {
+   
+    
+    font-family:"Playfair Display", serif;
+}
 
 .skillCard img {
     
@@ -233,7 +239,7 @@ button:active {
 .skillCard p {
    
     text-align:justify;
-    
+    font-family:"Playfair Display", serif;
     font-size: 18px;
    
   
@@ -244,13 +250,19 @@ button:active {
     font-size: 50px;
     padding:2%;
     justify-items: center;
-    font-family: "playfair Display", serif;
+    font-family:"Playfair Display", serif;
     color:#d45b53;
 }
+#myWork-Grid p {
+    font-family:"Playfair Display", serif;
+
+}
+
 #myWork-Grid {
     display:grid;
     grid-template-rows: max-content 3fr 3fr 3fr max-content;
     width: 100%;
+    row-gap: 1.5%;
     background-image: linear-gradient(to bottom, #E2E2E2, #3C9D9D);
     
 
@@ -261,10 +273,11 @@ button:active {
     column-gap:0.5%;
     padding:0% 0% 0% 10%;
     
+    
 
 }
 .project-details {
-    width:70%;
+    width:80%;
     justify-content: center;
    
 }
@@ -279,6 +292,7 @@ button:active {
     transform:scale(1.1);
 }
 .project-details button {
+    font-family:"Playfair Display", serif;
     
    position: relative;
    top: 10%; 
@@ -290,28 +304,40 @@ button:active {
 
 }
 .project-details button:active {
-    box-shadow:0 4px: #3C9D9D;
+    box-shadow:0 4px:#3C9D9D;
 }
-.Viewall-project {
-    justify-content:right ;
+
+.Viewall-project button {
+    align-items:right ;
     border: none;
-    color: white;
     padding: 10px 20px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
-    display: inline-block;
-    font-family: "playfair Display", serif;
+    display:block;
+    font-family:"Playfair Display", serif;
     font-size: 16px;
     border-radius: 30px;
     transition-duration: 0.4s;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
+    position: relative;
+   top:20%; 
+    left: 50%;
+   -ms-transform: translate(-30%, -70%);
+    transform: translate(-50%, -50%);
+    background-image:linear-gradient(to bottom, #D45B53, #3C9D9D);
+    color: #333333;
+    margin-top:5% ;
     box-shadow:0 4px:#008080;
     cursor:pointer;
 }
-.project
+
+
+
+
 #myWork-Grid h4 {
     text-align: right;
     padding:0% 25% 0% 0%;
+    font-family:"Playfair Display", serif;
   
 
     
@@ -320,7 +346,7 @@ button:active {
 #contact-Grid {
     display:grid;
     background-image: linear-gradient(to bottom,  #3C9D9D,#008080);
-    height:350px;
+    height:400px;
     
 
 }
@@ -329,6 +355,7 @@ button:active {
 
 #contact-Grid h1{
     margin-top:10px;
+    font-family:"Playfair Display", serif;
 
     text-align: center;
     font-size: 50px;
@@ -352,6 +379,7 @@ button:active {
 }
 
 .email {  
+    font-family:"Playfair Display", serif;
     width:100%;
     justify-content: center;
     font-size: larger;
@@ -359,6 +387,7 @@ button:active {
 }
 
 .myLinkedin {
+    font-family:"Playfair Display", serif;
     width:100%;
     justify-content: center;  
     font-size: larger;
@@ -412,7 +441,7 @@ footer ul li {
     margin-left: 2%;
     margin-right:2%;
     text-align:center;
-    font-family: "Manrope", Sans-serif;
+    font-family:"Playfair Display", serif;
     font-size: 18px;
     
   /*  background-color:#333333; */
@@ -508,7 +537,7 @@ footer ul li a:visited {
         align-content:center;
     }
     .Project-card {
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows:1fr 1fr;
         grid-template-columns: 100%;
         align-content: center;
         justify-items: center;
@@ -518,6 +547,7 @@ footer ul li a:visited {
     .contact-card {
         grid-template-rows:max-content 1fr 1fr;
         grid-template-columns: 100%;
+        
     }
     
     .content {
@@ -573,6 +603,7 @@ footer ul li {
 .inline-block {
     overflow:hidden;
 }
+
 
 }
 
