@@ -291,6 +291,7 @@ button:active {
 .cs_mockup:hover {
     transform:scale(1.1);
 }
+
 .project-details button {
     font-family:"Playfair Display", serif;
     
@@ -305,6 +306,12 @@ button:active {
     color: #E2E2E2;
 
 }
+.project-details a {
+    color: #E2E2E2;
+    
+    text-decoration:none;
+}
+
 .project-details button:hover {
     
     color: white;
@@ -315,6 +322,7 @@ button:active {
         box-shadow: 0 3px #d45b53;
         transform: translateX(-50%);
     }
+   
     
 .Viewall-project{
     text-align:center;
